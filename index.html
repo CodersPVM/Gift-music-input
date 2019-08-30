@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play music with searching</title>
+	<link rel="stylesheet" type="text/css" href="search.css">
+</head>
+
+<body>
+	<input id="input" class="center-block" type="text" name="sunday" placeholder="Input anything letter here!!!">
+  
+	<h1 id="sunday"></h1>
+  
+  <audio controls autoplay loop id="audio">
+</audio>
+
+<script type="text/javascript">
+	var input = document.getElementById("input");
+
+input.addEventListener("keyup", sundayInput);
+input.addEventListener("keyup", audioInput)
+
+function sundayInput() {
+  var inputSunday = document.getElementById("sunday");
+  inputSunday.innerHTML = "Beautiful Sunday!";
+}
+
+function audioInput() {
+  var audio = document.getElementById("audio");
+  audio.innerHTML = '<source src="https://r1---sn-8qj-nbols.googlevideo.com/videoplayback?expire=1567223642&ei=-ZppXcPSN8qW4QLN9qPABw&ip=2001%3Aee0%3A53a0%3A79c0%3A3cdc%3A5cc5%3Ae6a5%3Ab3f2&id=o-AAiMQFbcwMfe0oeI7zpge6IUrY-r3WTfeEz5nGHvfVUN&itag=18&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-8qj-nbols%2Csn-8qj-nboel&ms=au%2Crdu&mv=m&mvi=0&pl=44&initcwndbps=1213750&mime=video%2Fmp4&gir=yes&clen=11218730&ratebypass=yes&dur=187.617&lmt=1537424891326155&mt=1567201968&fvip=1&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRQIhALLCqBdZD_rl6iobjl85mBLiNdcC15LtCqLpfTsx5eo5AiAeSwYu13jLIzzSkHzQZahzvdozfPIsaTb8_2UMTmy3Sg%3D%3D&sig=ALgxI2wwRQIhAIde6bqB6Pcf6PuHDmVaVN8kxOafXIIeapt_sEylsrjDAiAPAIrgiKgOovhjy_6Tvm3hZ0dWc7pF3bo2bVxsCDgbuA%3D%3D" type="audio/ogg">';
+  audio.innerHTML = '<source src="https://r1---sn-8qj-nbols.googlevideo.com/videoplayback?expire=1567223642&ei=-ZppXcPSN8qW4QLN9qPABw&ip=2001%3Aee0%3A53a0%3A79c0%3A3cdc%3A5cc5%3Ae6a5%3Ab3f2&id=o-AAiMQFbcwMfe0oeI7zpge6IUrY-r3WTfeEz5nGHvfVUN&itag=18&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-8qj-nbols%2Csn-8qj-nboel&ms=au%2Crdu&mv=m&mvi=0&pl=44&initcwndbps=1213750&mime=video%2Fmp4&gir=yes&clen=11218730&ratebypass=yes&dur=187.617&lmt=1537424891326155&mt=1567201968&fvip=1&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRQIhALLCqBdZD_rl6iobjl85mBLiNdcC15LtCqLpfTsx5eo5AiAeSwYu13jLIzzSkHzQZahzvdozfPIsaTb8_2UMTmy3Sg%3D%3D&sig=ALgxI2wwRQIhAIde6bqB6Pcf6PuHDmVaVN8kxOafXIIeapt_sEylsrjDAiAPAIrgiKgOovhjy_6Tvm3hZ0dWc7pF3bo2bVxsCDgbuA%3D%3D" type="audio/mpeg">';
+}
+</script>
+  
+</body>
+</html>

@@ -1,0 +1,11 @@
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  color: orange;
+  font-family: "Lucida Sans Unicode";
+  text-align: center;
+  font-size: 200px;
+}
